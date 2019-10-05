@@ -11,3 +11,7 @@ com.darealpunjabi, Jar, Java 11, Spring Web
 movie-catalog-service
 movie-info-service
 ratings-data-service
+
+The above services use RestTemplate. This will be deprecated in a future version and will not have major new features added going forward.
+
+See the WebClient section of the Spring Framework reference documentation for more details and example code.
