@@ -8,6 +8,10 @@ public class UserRating {
     private String userId;
     private List<Rating> ratings;
 
+    public UserRating() {
+
+    }
+
     public String getUserId() {
         return userId;
     }
